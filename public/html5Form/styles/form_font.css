@@ -1,0 +1,44 @@
+@font-face{
+	font-family: 'OpenSans-Semibold';
+	src: url('../webfonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.oet');
+	src: url('../webfonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?iefix') format('eot'),
+	     url('../webfonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff') format('woff'),
+	     url('../webfonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf') format('truetype'),
+	     url('../webfonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'Amble-Bold';
+	src: url('../webfonts/amble_bold_macroman/Amble-Bold-webfont.oet');
+	src: url('../webfonts/amble_bold_macroman/Amble-Bold-webfont.eot?iefix') format('eot'),
+	     url('../webfonts/amble_bold_macroman/Amble-Bold-webfont.woff') format('woff'),
+	     url('../webfonts/amble_bold_macroman/Amble-Bold-webfont.ttf') format('truetype'),
+	     url('../webfonts/amble_bold_macroman/Amble-Bold-webfont.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'Roboto-Regular';
+	src: url('../webfonts/roboto_regular_macroman/Roboto-Regular-webfont.oet');
+	src: url('../webfonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?iefix') format('eot'),
+	     url('../webfonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff'),
+	     url('../webfonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf') format('truetype'),
+	     url('../webfonts/roboto_regular_macroman/Roboto-Regular-webfont.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'RobotoCondensed-LightItalic';
+	src: url('../webfonts/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.oet');
+	src: url('../webfonts/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.eot?iefix') format('eot'),
+	     url('../webfonts/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.woff') format('woff'),
+	     url('../webfonts/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.ttf') format('truetype'),
+	     url('../webfonts/roboto_lightcondenseditalic_macroman/RobotoCondensed-LightItalic-webfont.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'Roboto-Black';
+	src: url('../webfonts/roboto_black_macroman/Roboto-Black-webfont.oet');
+	src: url('../webfonts/roboto_black_macroman/Roboto-Black-webfont.eot?iefix') format('eot'),
+	     url('../webfonts/roboto_black_macroman/Roboto-Black-webfont.woff') format('woff'),
+	     url('../webfonts/roboto_black_macroman/Roboto-Black-webfont.ttf') format('truetype'),
+	     url('../webfonts/roboto_black_macroman/Roboto-Black-webfont.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'Heydings-Icon';
+	src: url('../webfonts/heydings_icons.ttf') format('truetype');
+}

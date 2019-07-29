@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ckim Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="styles/form_font.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" media="screen and (max-width:600px)" href="styles/sm_form_mediaQuery.css">
+  <link rel="stylesheet" media="screen and (min-width:601px) and (max-width:850px)" href="styles/med_form_mediaQuery.css">
+</head>
+<body>
+ <div id="container">
+   <a class="hidden" id="toregister"></a>
+   <a class="hidden" id="tologin"></a>
+   <div id="wrapper">
+     <div id="login" class="animate">
+       <form action="">
+         <h1>Login</h1>
+         <hr />
+         <p><label for="name" data-icon="A">Name</label><input type="text" name="name"  placeholder="your username or password" class="icon pw" required="required"><span ></span></p>
+         <p><label for="pw" data-icon="K">Password</label><input type="text" name="pw" pattern=".{6,}"  placeholder="password"  required="required"></p>
+         <p class="keepLogged"><input type="checkbox" name="loggedIn"> Keep me logged in <span class="buttons"><input type="submit" value='login'></span></p>
+          <p class="polka">Would you like to register? <a href="#toregister" class="aTagBtn">Sign Up</a></p>
+       </form>
+     </div>
+     <div id="register" class="animate">
+       <form action="">
+         <h1>Register</h1>
+         <hr/>
+           <p><label for="name" data-icon="A">Username</label><input type="text" name="name" placeholder="enter a username" required="required"></p>
+           <p><label for="name" data-icon="E">Email</label><input type="email" name="email" placeholder="email@youremail.com" required="required"></p>
+           <p><label for="pw" data-icon="K">Password</label><input type="text" name="pw" pattern=".{6,}"  placeholder="password six character minimum" required="required"></p>
+           <p><label for="pw" data-icon="K">Confirm Password</label><input type="text" name="pw" placeholder="retype password" required="required"></p>
+           <p class="keepLogged">&nbsp;<span class="buttons"><input type="submit" value='Register'></span></p>
+            <p class="polka">Already registered? <a href="#tologin" class="aTagBtn">Login</a></p>
+       </form>
+     </div>
+   </div>
+ </div>
+ <script>
+
+ </script>
+</body>
+</html>

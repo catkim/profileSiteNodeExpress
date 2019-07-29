@@ -1,0 +1,173 @@
+
+  @font-face{
+    font-family: 'MANIFESTO';
+  	src: url('../webfonts/MANIFESTO.ttf') format('truetype'),
+         url('../webfonts/manifesto-webfont.woff') format('woff');
+  }
+  @font-face{
+  	font-family: 'OpenSans-Semibold';
+  	src: url('../webfonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.oet');
+  	src: url('../webfonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?iefix') format('eot'),
+  	     url('../webfonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff') format('woff'),
+  	     url('../webfonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf') format('truetype'),
+  	     url('../webfonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#webfont') format('svg');
+  }
+  @font-face{
+    font-family: 'Roboto-Regular';
+    src: url('../webfonts/roboto_regular_macroman/Roboto-Regular-webfont.oet');
+    src: url('../webfonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?iefix') format('eot'),
+         url('../webfonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff'),
+         url('../webfonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../webfonts/roboto_regular_macroman/Roboto-Regular-webfont.svg#webfont') format('svg');
+  }
+  @font-face{
+    font-family: 'Kalocsai_Flowers';
+    src: url('../webfonts/kalocsaiflowers_regular_macroman/Kalocsai_Flowers-webfont.oet');
+    src: url('../webfonts/kalocsaiflowers_regular_macroman/Kalocsai_Flowers-webfont.eot?iefix') format('eot'),
+         url('../webfonts/kalocsaiflowers_regular_macroman/Kalocsai_Flowers-webfont.woff') format('woff'),
+         url('../webfonts/kalocsaiflowers_regular_macroman/Kalocsai_Flowers-webfont.ttf') format('truetype'),
+         url('../webfonts/kalocsaiflowers_regular_macroman/Kalocsai_Flowers-webfont.svg#webfont') format('svg');
+  }
+  body{
+
+   background-color: #383e2f;
+  }
+  h1{
+    font-family: MANIFESTO;
+    text-align:center;
+    margin-top:1.75em;
+    color:white;
+    font-size:5em;
+    opacity: 0.60;
+  }
+  h2{
+    display:block;
+    width:100%;
+    color:#eecfa1;
+    font-family: OpenSans-Semibold;
+    text-shadow: 3px 3px 6px rgba(000, 000, 000,  0.5);
+    font-size:2.25em;
+  }
+  label{
+    font-family:Roboto-Regular;
+    color:#643e23;
+    font-size: 1em;
+    font-weight:bold;
+    padding-right: 4px;
+    text-shadow: 2px 2px 5px rgba(105, 108, 109,  0.6);
+    diplay: relative;
+  }
+  .wrapper{
+    background-image: url('http://www.aliisawesome.com/html5/img/hikerMountain.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:100%;
+    position:absolute;
+    margin:0 auto;
+    height:100%;
+  }
+
+  .flex-container{
+    display:flex;
+    flex-basis:700px;
+    max-width: 700px;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin:0 auto;
+    background-color: #d2d1cd;
+    text-align: center;
+    box-shadow: 0 0 0 4px #655, 0 0 0 9px #383e2f;
+    padding-bottom: 20px;
+  }
+  .box{
+    height:40px;
+    text-align:right;
+    flex: 0 0 320px;
+  }
+
+  input[type="range"]{
+    width: 190px;
+    box-shadow:none;
+    border:none;
+    padding-left:0px;
+  }
+  input{
+    border-radius: 6px;
+    box-shadow:
+    2px 2px 2px 2px rgba(105, 108, 109,  0.2);
+    width:200px;
+    border:1px solid #eecfa1;
+    box-sizing : border-box;
+    padding-left:5px;
+  }
+  ::-webkit-input-placeholder {
+    font-style: italic;
+    color:forestgreen;
+    font-size:.70em;
+  }
+::-webkit-input-placeholder {
+    font-style: italic;
+    color:forestgreen;
+    font-size:.70em;
+  }
+::-moz-placeholder {
+    font-style: italic;
+    color:forestgreen;
+    font-size:.70em;
+    margin-left:55px;
+  }
+  :-ms-input-placeholder {
+    font-style: italic;
+    color:forestgreen;
+    font-size:.70em;
+  }
+  :-moz-placeholder {
+    font-style: italic;
+    color:forestgreen;
+    font-size:.70em;
+  }
+  input[type="time"]{
+    font-style: italic;
+    color:forestgreen;
+    font-size:.75em;
+  }
+  div span{
+    font-style: italic;
+    color:forestgreen;
+    font-size:.75em;
+    text-align:center;
+    display:inline-block;
+    width:200px;
+  }
+  input[type="submit"]{
+    background:#389638 linear-gradient(#389638, #061b06);
+    color:#eecfa1;
+    font-family: OpenSans-Semibold;
+    border-radius: .5em;
+    border:2px solid #114511;
+    height:40px;
+    width:90px;
+    text-shadow: 0 2px 4px #a69070;
+    font-size:1em;
+  }
+  input[type="submit"]:hover{
+    color:#643e23;
+    background:#eecfa1 linear-gradient(#eecfa1, #bea580);
+    border:2px solid #643e23;
+  }
+  input[type="text"]:focus, input[type="email"]:focus, input[type="time"]:focus{
+    outline: none;
+    border:1px solid forestgreen;
+    padding-left: 20px;
+  }
+  input:required:invalid {
+  color:red;
+}
+[data-icon]:after {
+    content: attr(data-icon);
+    font-family: 'Kalocsai_Flowers';
+    color: forestgreen;
+    position:absolute;
+    padding-left:10px;
+    line-height: 1.5;
+}
